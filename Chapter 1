@@ -1,0 +1,34 @@
+Algorithm Design Paradigms:
+*3 ways of algorithm design
+*divide and conquer: break the problem into smaller problems and combine all the sub solutions to get the global solutions
+*Greedy algorithms: optimization and combination of a problem. What this means is the quickest and easiest way to the solution
+*dynamic programming: is great when all the sub problems are overlapping. All the results within the functions are kept in storage and when needed will be called upon 
+
+Patter Concept:
+*patterns carries the complete idea within the program. 
+*Pattern is the basic concept of the program design, adding the layer of abstraction
+*vector of change is the most important that changes within your system
+*the purpose of design patterns is to isolate changes within the code
+
+Classifying Patterns:
+*there are about 23 different patterns with 3 specific purposes
+*Creational: how an object is created/ Meaning isolating the details in the object to maje sure it isn’t depend on what types of objects there is
+*Structural: designing objects so that they satisfy projects rules. Basically meaning that even though the code changes, the relationship between objects do not change
+*Behavioral: objects that handle a certain type of data. This pattern is a focus on certain types of actions such as interpreting a language
+
+Pattern Taxonomy:
+*Idiom: how code is written to do a specific action
+*Specific Design: solution that was formulated to solve the specific problems
+*Standard Design: a way to solve a standard problem
+*Design Patter: solving as an entire set of similar problem.
+
+Design Principles:
+*Make common things easy and rare things accessible
+*consistency is when you have less rules so the coder has more time to develop the code\
+*law of Demeter is when an object refers to itself and only itself 
+*Orthogonality is showing ideas that are completely independent of one another
+*managed coupling is when the coupling itself causes problems within the pattern or designing
+*subtraction is when a designed objects can no longer be taking away
+*simplicity before generality can be when the simpler solution is the general one
+*reflectivity is an abstraction per class and vice versa
+*once and once only is when one avoids a copy of the structure and logic
