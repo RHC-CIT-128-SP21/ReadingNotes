@@ -1,0 +1,38 @@
+Parameterization Mechanisms:
+*python calls by object and not by value or reference
+*when immutable objects are introduced, they are called by value
+*call by reference is when the parameters are mutable 
+Run-Time Stack:
+*run-time structure is used to execute programs
+*stack is a data structure that allows you to add or remove elements to the structure
+*activation record is a part of memory in which holds a copy of all variables within a local scope while the function executes
+Type Parameters and Parameterized Types:
+*parameters can be added to functions and classes to add information to the program
+*user-defined generics are very complicated and unless you need it, it isnt common to user
+there are builtin collection of classes which include dictionary and lists
+*generic types usually have more than one type of parameters
+Modules, Packages, and Goodies:
+*module is nothing more than a file filled with python code
+*you get code from modules by using the import statement
+*import statement plus the name of the file
+*module qualified name (module.function) is a safer but more time consuming way
+*imported modules can have new aliases when called upon
+*importing a specific function from a module is also doable
+*organizing modules into files and create hierarchies are called packages
+*package is a sub directory that contain python files
+*can import modules by calling directories
+*python interpreter looks all around to retrieve what is called
+*you can control the search to pull from speciifc directories
+*borrows  annotations from Unix with . And .. as current and parent directory
+*if files are moved or even dropped a sub directory, it is still possible to reach without rewriting code
+*if you were to change something from an imported module, it will only remain in the lifetime of the executed code
+*Python does come with a standard library that has a wide array of modules
+*set default works with dictionaries but only if there is a non existent key
+*standard library comes with counter
+*OrderedDict() remember the order of additions and returns them in the same order as they came in
+deque is a double ended queue which is a stack and queue, great for deleting or adding to either side
+itertools return one item at a time when called inside a for  in loop
+*chain treats it as one long list while cycle just repeats the process
+*accumulate calculates the accumulated total, and by default sum
+*pprint statement aligns elements for better reading
+*random is when it chooses a random value within a specific range or list
