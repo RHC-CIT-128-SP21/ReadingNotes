@@ -1,0 +1,50 @@
+Namespace:
+*system in which unique names are given to all objects in python 
+*3 name spaces, built in namespace, within that is global namespace, and within that is local *namespace. (What happens in Vegas stays in Vegas)
+Scope and Lifetime:
+*scope is part of code where object is found whether it be on the global (entirety of code) or local (within the function)
+*global can be access anywhere in a code, local is only accessible within the function
+*global variable last as long as the script runs, local variables last only as long as the function it is found within
+
+Binding in Programming:
+*assigns a value to a variable
+*explicit declaration implies a statement that defines variable name and type(whether it is public or private)
+*implicit declaration assumes that it is public
+*dynamic binding: variable are bound to a type depending on the value assigned. This occurs during run-time
+*static binding: the compiler chooses which variable gets assigned where 
+*python is based off C-language, which means you can load dynamic link library
+*basically it serves as a bridge between C and python for it treats codes written in C as a module for python
+
+Garbage Collection:
+*python does not require memory allocation
+*python uses instead reference counting and garbage collection
+*reference counting works by counting the number of times an object is mentioned by other objects in the code. When the count is 0 for the times it has referred, it deallocated the memory
+*Garbage collection is a scheduled activity, this is done when number of allocation minus dealloctions is greater than the threshold
+*one can also invoke a manual garbage collection, either by time based or event based
+
+Python Environment:
+*python has a really good base when it comes to testing through the read-evaluate-print loop of the console
+Variable and Expressions:
+*variables are not containers nor are they the object themselves, they merely perform the task of point what the value is
+*variables are dynamic, meaning when something is changed to the variable, it is reflected in the output whether the variable is a list that has a number appended to it or change the type of value it holds. 
+
+Variable Scope:
+*when a function is ran, a new local name space is made
+*when a function is ran it first foes through the local namespace first and then into the global namespace, then builtin. If all that fails, name error occurs
+*when referring to a global variable from within a function, one must put global in front so the code know where to look
+
+Flow Control:
+*python interpreter reads the code in order of sequence
+*There is no order of priority when it comes to statements, however to conteract this is to use if,elif, or else statements
+Overview of Data Types and Objects:
+*12 built in data types: int, float ,complex , bool, str, list, tuple, range, dict, and two set types
+*Everything in python is considered an object
+*each object has a type, value, and identity
+*id() shows variables memory location
+*list are mutable, while strings and tuples are not immutable
+
+List:
+*list are the most used
+*python only makes a copy when needed to, this means when two variables have the same list, it is the same list with the same memory location. So if something happens to one variable, it will reflect to the other
+*List can have nested list or other structures within itself
+*list can be used in very different ways whether it be 6 lines of code or be within one line that outputs the same results
