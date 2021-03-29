@@ -1,0 +1,62 @@
+Creating Python Classes
+*coding in python is very clean for it does not require a lot of prerequisite code
+*class contents is similar to functions especially with the emphasis on proper indentation
+*to create an instance of a class with parentheses following the call of a class
+
+Adding Attributes
+*you can give attribute values through dot notations
+*dot notation follows the syntax of object.attribute = value
+
+Making it do something
+*attributes inn objects can be manipulated through actions/methods
+*methods within a class are formatted the same way as normal functions
+*the method is honestly just another name for a function that is specific to the one object
+
+Talking to Yourself
+*methods need a parameter called self
+*self is for reference for the object within the class that the method calls for
+*when a method is called, python automatically puts the self as a parameter
+
+Initializing the Object
+*constructor is a special method that initializes created objects when they are formed
+*if no values are given, a default value can be given in the parameter
+*__init__ method will always be in use while __new__ will hardley ever see the light of the day
+
+Explaining Yourself
+*API documentation is important when writing in python
+*docs strings are python strings enclosed apostrophes or quotation marks
+*docstring should summarize purpose of a class or method it is describing
+
+Modules and Packages 
+*modules is a great way to keep track of objects and methods by separating them by files
+*one module can carry classes and functions while another module can import them to access a database
+*import statement is used to import other modules into the current one
+*one can import a whole module or a specific object within the module
+*when importing, one must be wary of the objects coming into the namespace
+
+Organizing Modules
+*package is a collection of modules within a folder
+*name of the package is the name of the folder, and for python to differentiate from other folders, one needs to have a file in the folder name __init__.py
+
+Absolute Import
+*this is the complete path to the module, function or class one wants to important
+*syntax can also affect the path to access imports
+
+Relative Imports
+*when one wants to find a class,function, or module as it is placed close to the current module
+*you can access different modules within the same file directory
+*one can also import code directly from packages instead of modules
+
+Organizing Module Content
+*one can make an object global, but can lead to some issues
+*for example, the object is imported and created at the beginning of the code 
+*guarding is when you protect the main code by having is within a conditional statement
+*classes can be defined anywhere
+ 
+Who can access my data?
+*Access control is related to which objects can access data. Whether it is private, protected, and public
+*name mangling method can be called by an outside object if they want to do it, and a strong indicator that it is to be private
+
+Third Party Libraries
+*Python Package Index (PyPI) is a library of proven code that works
+
