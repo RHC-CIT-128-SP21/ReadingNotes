@@ -1,0 +1,51 @@
+Object Oriented Programming
+*software objects things that can do certain actions as well as things be done unto them
+an object is a cluster of data and associated behavior
+*object-oriented is a collection of objects interacting by their data and behavior
+*Object-oriented analysis (OOA) is looking at a problem,system or issue and figure out all the objects and how they interact. It then shoots out the requirements of the system or application
+*Object-oriented design (OOD) is taking the requirements and creating system specifications. It then outputs implementation specifications
+*Object-oriented programming (OOP) is the conversion from design into a working program
+
+Object and Classes
+*a specific kind of object is called a class
+*class is used to describe an object. Class serves as the dictionary or basic characteristics of an *object to be part of it
+*Unified Modeling Language is the relationships between classes
+*UML can be very useful during the designing/creation phase of programming
+*UML only requires the bare minimum to explain the association between two objects
+*UML can describe the quantity per object used per association
+
+Data Describes Objects
+*data reveals the individual characters of an instance of an object
+*data can vary within an object class under a specific attribute (like weight on a orange)
+*attributes are members or properties of a class
+*attributes can be the normal data type (str, int,floar) but can also be data structures (lists or other classes)
+
+Behaviors are Actions
+*behaviors are actions that happen to a object 
+*methods are behaviors that are performed on a specific class
+*methods have access to all data that is associated with the object as well as accept parameters and return values
+*method parameters are passed as a list of objects
+*when adding attributes and methods to an object, one creates a system of interacting objects
+
+Hiding Details and Creating a Public Interface
+*the purpose of object oriented design is to figure out whats to be allowed to be access by the public
+information hiding, or sometime called encapsulation, is hiding the implementation of  an object 
+public interfaces should be kept simple
+*abstraction is offering a level of detail that is required for the job
+
+Composition
+*composition is collecting several objects into one giant object 
+*composition can be seen like a car. You have a car which has engine, brake system, and eletrical. *The engine within that has piston,crankshaft, and valves
+*aggregation is very similar to composition, however, its wear the object is located. For aggregate, it exists outside and completely independent of the composition object 
+Inheritance
+*inheritance is when a class inherits attributes from another class
+*there is a central hub point in which all the classes share the same attributes and attribute values.
+
+Inheritance Provides Abstraction
+*polymorphism is the ability to treat a class differently depending on the subclass
+*a part of polymorphism is called duck typing 
+
+Multiple Inheritance 
+*mutiple inheritance is a subclass to inherit functionality from many parent classes
+*if features from the parent class are unique enough (scan and fax) there wont be issues, but if there strong similarities such as (Motorcycle/Bike, ride())
+
