@@ -5,7 +5,7 @@ and dynamic programming
 * Greedy is when the easiest most direct route is the best course of action
 * dynamic is great when the sub problems overlap each other and one great solution can be made
 
-#Recursion and Backtracking
+# Recursion and Backtracking
 * recursion is great for divide and conquer problems
 * recursive functions is one of two types of cases, base cases which tells the recursion is told to be ended and recursive case in which they call the function they are within
 
